@@ -44,11 +44,85 @@ h1, h2, form, button {
     text-align: center;
 }
 
-input[type=text] {
-    width : 100%;
+textarea {
+    width : 95%;
+    /* height : 5em; */
 }
 
-/* form {
+.card, .setCard {
+    background-color: #366638;
+    margin: auto;
     text-align: center;
-    border:#366638;
-} */
+    color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+
+.studyMenu {
+    padding-top: 30px;
+    text-align: center;
+}
+
+.modeMenu {
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+
+#cardIdentifier {
+    float: left;
+    text-align: left;
+    color: lightgray;
+    padding: 0px 0px;
+    font-size: 0.8em
+}
+
+.card:hover, .setCard:hover {
+    background-color: #2E5730;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.setCard {
+    margin: 0px 40px;
+    width: 250px;
+    
+}
+
+table {
+    width: 100%;
+    overflow: visible !important;
+    margin: auto;
+}
+
+.displaySet h2 {
+    display: inline-block;
+}
+
+.displaySet button {
+    float: right;
+    margin-bottom: 20px;
+}
+
+.wrapper {
+    margin: auto;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content {
+    flex: 1 1 0%;
+}
+
+.writeSubmitted {
+    text-align: left;
+}
+
+.writeSubmittedTitle {
+    text-align: center;
+    font-weight: bold;
+}
